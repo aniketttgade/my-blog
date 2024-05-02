@@ -1,0 +1,630 @@
+/* Add or update CSS styles as needed */
+/* Existing styles are assumed to be included */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav form {
+    display: inline-block;
+}
+
+nav input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+nav button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.blog-list h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-list ul {
+    list-style-type: none;
+}
+
+.blog-list li {
+    margin-bottom: 40px;
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.blog-post header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-post h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.blog-post .meta {
+    font-style: italic;
+    color: #666;
+}
+
+.blog-post .blog-thumbnail {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-post .blog-thumbnail img {
+    max-width: 90%;
+    border-radius: 5px;
+}
+
+.blog-post .blog-content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.social-share {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-share span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.social-share a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+.social-share a:hover {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Add or update CSS styles as needed */
+/* Existing styles are assumed to be included */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.related-posts {
+    list-style: none;
+    padding: 0;
+}
+
+.related-posts li {
+    margin-bottom: 10px;
+}
+
+.related-posts li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.related-posts li a:hover {
+    text-decoration: underline;
+}
+/* Add or update CSS styles as needed */
+/* Existing styles are assumed to be included */
+
+.blog-list {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.blog-list h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-list li {
+    margin-bottom: 40px;
+}
+
+.blog-post {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.blog-post .blog-thumbnail {
+    flex: 0 0 200px; /* Fixed width for thumbnail */
+    margin-right: 20px;
+}
+
+.blog-post .blog-thumbnail img {
+    width: 100%; /* Ensures image fills its container */
+    border-radius: 5px;
+}
+
+.blog-post .blog-content {
+    flex: 1;
+}
+/* Add or update CSS styles as needed */
+/* Existing styles are assumed to be included */
+
+/* Ensure content fills the viewport height */
+html, body {
+    height: 100%;
+}
+
+/* Set a minimum height for main content area */
+main {
+    min-height: calc(100% - 160px); /* Adjust as needed */
+}
+
+/* Adjust header and footer padding for better spacing */
+header, footer {
+    padding: 20px 0;
+}
+
+/* Make the header and footer text more readable */
+header h1, footer p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Center align navigation links */
+nav ul {
+    text-align: center;
+}
+
+/* Adjust form input and button styles for better usability */
+nav form {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav input[type="text"],
+nav button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Make blog list responsive */
+.blog-list {
+    padding: 20px;
+}
+
+.blog-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-list ul {
+    padding: 0;
+}
+
+.blog-list li {
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    display: flex;
+    flex-wrap: wrap; /* Ensure content wraps on small screens */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.blog-post .blog-thumbnail {
+    flex: 0 0 200px;
+    margin-right: 20px;
+}
+
+.blog-post .blog-thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blog-post .blog-content {
+    flex: 1;
+}
+
+/* Make social share buttons responsive */
+.social-share {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-share span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.social-share a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+.social-share a:hover {
+    color: #333;
+}
+
+/* Adjust footer layout for smaller screens */
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+/* Add or update CSS styles as needed */
+/* Existing styles are assumed to be included */
+
+/* Ensure content fills the viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a minimum height for main content area */
+main {
+    min-height: calc(100% - 160px); /* Adjust as needed */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Adjust header and footer padding for better spacing */
+header, footer {
+    padding: 20px 0;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Make header text more readable */
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Center align navigation links */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav form {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav input[type="text"],
+nav button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Make blog list responsive */
+.blog-list {
+    padding: 20px;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+.blog-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-list ul {
+    padding: 0;
+}
+
+.blog-list li {
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    display: flex;
+    flex-wrap: wrap; /* Ensure content wraps on small screens */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+.blog-post .blog-thumbnail {
+    flex: 0 0 200px;
+    margin-right: 20px;
+}
+
+.blog-post .blog-thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blog-post .blog-content {
+    flex: 1;
+}
+
+/* Make social share buttons responsive */
+.social-share {
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+.social-share span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.social-share a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+.social-share a:hover {
+    color: #333;
+}
+
+/* Adjust footer layout for smaller screens */
+footer {
+    text-align: center;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+/* Add or update CSS styles as needed */
+/* Existing styles are assumed to be included */
+
+/* Ensure content fills the viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a minimum height for main content area */
+main {
+    min-height: calc(100% - 160px); /* Adjust as needed */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Adjust header and footer padding for better spacing */
+header, footer {
+    padding: 20px 0;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Make header text more readable */
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Center align navigation links */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav form {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav input[type="text"],
+nav button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Make blog list responsive */
+.blog-list {
+    padding: 20px;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+.blog-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-list ul {
+    padding: 0;
+}
+
+.blog-list li {
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    display: flex;
+    flex-wrap: wrap; /* Ensure content wraps on small screens */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+.blog-post .blog-thumbnail {
+    flex: 0 0 200px; /* Original size for larger devices */
+    margin-right: 20px;
+}
+
+.blog-post .blog-thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blog-post .blog-content {
+    flex: 1;
+}
+
+/* Make social share buttons responsive */
+.social-share {
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+.social-share span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.social-share a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+.social-share a:hover {
+    color: #333;
+}
+
+/* Adjust footer layout for smaller screens */
+footer {
+    text-align: center;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+/* Media query for small devices */
+@media only screen and (max-width: 768px) {
+    .blog-post .blog-thumbnail {
+        flex: 0 0 100px; /* Smaller size for small devices */
+    }
+
+    .blog-post .blog-content {
+        flex: 2; /* Adjust content size accordingly */
+    }
+}
+.blog-post {
+    display: block;
+    margin-bottom: 20px;
+    overflow: hidden; /* Add this line to hide overflowing content */
+    height: auto; /* Set a fixed height for each blog post */
+}
+
+.blog-post .blog-thumbnail {
+    float: left;
+    margin-right: 20px;
+    width: 30%; /* Adjust the width of the thumbnail */
+}
+
+.blog-post .blog-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-post .blog-content {
+    overflow: hidden;
+    /* Remove height: auto; from here */
+}
+
+.blog-post .read-more {
+    clear: both;
+}
+
+/* Add more CSS styles as needed */
+
+.blog-content h3 a {
+    text-decoration: none;
+    color: black;
+}

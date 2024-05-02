@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Awesome Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <form id="search-form" action="#" method="get">
+                    <input type="text" id="search-input" name="search" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="blog-list">
+            <div class="container">
+                <h2>Latest Blog Posts</h2>
+                <ul>
+                    <li>
+                        <article class="blog-post">
+                            <div class="blog-thumbnail">
+                                <img src="images/5g blog img.jpg" alt="Blog Post Image">
+                            </div>
+                            <div class="blog-content">
+                                <h3><a href="5G internet.html">Navigating the Waves: A Dive into the World of 5G Internet</a></h3>
+                                <p class="meta">Posted by <span class="author">Aniket</span> on <span class="date">May 2, 2024</span></p>
+                                <p>In today's hyper-connected world, the term "5G" has become more than just a buzzword; it's a technological tsunami promising to reshape the way we communicate, work, and live. As the fifth generation of mobile networks, 5G internet is poised to revolutionize connectivity......................</p>
+                                <div class="read-more">
+                                    <a href="5G internet.html">Read More</a>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    
+                    <!-- Add more blog post items here -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Awesome Blog</p>
+        </div>
+    </footer>
+    <script>
+// JavaScript for handling search functionality
+
+document.addEventListener("DOMContentLoaded", function() {
+    const searchForm = document.getElementById("search-form");
+    const searchInput = document.getElementById("search-input");
+    const blogPosts = document.querySelectorAll(".blog-post");
+
+    searchForm.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form submission
+        const searchTerm = searchInput.value.trim().toLowerCase();
+
+        // Loop through blog posts and hide/show based on search term in title
+        blogPosts.forEach(function(post) {
+            const title = post.querySelector("h3 a").innerText.toLowerCase();
+            if (title.includes(searchTerm)) {
+                post.style.display = "block";
+            } else {
+                post.style.display = "none";
+            }
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
